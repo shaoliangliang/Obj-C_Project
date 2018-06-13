@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61CEA9020D0F76D00D0813B /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CEA8D20D0F76D00D0813B /* YYFPSLabel.m */; };
+		A61CEA9120D0F76D00D0813B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CEA8F20D0F76D00D0813B /* YYWeakProxy.m */; };
 		A62F520B20CA1EBD00EE1338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F520A20CA1EBD00EE1338 /* AppDelegate.m */; };
 		A62F520E20CA1EBD00EE1338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F520D20CA1EBD00EE1338 /* ViewController.m */; };
 		A62F521120CA1EBD00EE1338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62F520F20CA1EBD00EE1338 /* Main.storyboard */; };
@@ -35,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A61CEA8C20D0F76D00D0813B /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		A61CEA8D20D0F76D00D0813B /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		A61CEA8E20D0F76D00D0813B /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		A61CEA8F20D0F76D00D0813B /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		A61CEA9220D0F79600D0813B /* Sorin.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sorin.pch; sourceTree = "<group>"; };
 		A62F520620CA1EBD00EE1338 /* Obj-C-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obj-C-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62F520920CA1EBD00EE1338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A62F520A20CA1EBD00EE1338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +85,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A61CEA8A20D0F6F000D0813B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A61CEA8B20D0F76D00D0813B /* YYFPSLabel */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A61CEA8B20D0F76D00D0813B /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A61CEA8C20D0F76D00D0813B /* YYFPSLabel.h */,
+				A61CEA8D20D0F76D00D0813B /* YYFPSLabel.m */,
+				A61CEA8E20D0F76D00D0813B /* YYWeakProxy.h */,
+				A61CEA8F20D0F76D00D0813B /* YYWeakProxy.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
 		A62F51FD20CA1EBD00EE1338 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +127,7 @@
 		A62F520820CA1EBD00EE1338 /* Obj-C-Project */ = {
 			isa = PBXGroup;
 			children = (
+				A61CEA8A20D0F6F000D0813B /* Helpers */,
 				A62F520920CA1EBD00EE1338 /* AppDelegate.h */,
 				A62F520A20CA1EBD00EE1338 /* AppDelegate.m */,
 				A62F520C20CA1EBD00EE1338 /* ViewController.h */,
@@ -110,6 +137,7 @@
 				A62F521420CA1EBD00EE1338 /* LaunchScreen.storyboard */,
 				A62F521720CA1EBD00EE1338 /* Info.plist */,
 				A62F521820CA1EBD00EE1338 /* main.m */,
+				A61CEA9220D0F79600D0813B /* Sorin.pch */,
 			);
 			path = "Obj-C-Project";
 			sourceTree = "<group>";
@@ -267,7 +295,9 @@
 			files = (
 				A62F520E20CA1EBD00EE1338 /* ViewController.m in Sources */,
 				A62F521920CA1EBD00EE1338 /* main.m in Sources */,
+				A61CEA9020D0F76D00D0813B /* YYFPSLabel.m in Sources */,
 				A62F520B20CA1EBD00EE1338 /* AppDelegate.m in Sources */,
+				A61CEA9120D0F76D00D0813B /* YYWeakProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +462,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NNXX73THY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Obj-C-Project/Sorin.pch";
 				INFOPLIST_FILE = "Obj-C-Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sorin.Obj-C-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +479,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NNXX73THY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Obj-C-Project/Sorin.pch";
 				INFOPLIST_FILE = "Obj-C-Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sorin.Obj-C-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
