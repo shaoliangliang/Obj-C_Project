@@ -10,6 +10,10 @@
 		0A111EE1821505D897A8BE09 /* libPods-Obj-C-Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C96C7ACA9B6387C9C0E5455 /* libPods-Obj-C-Project.a */; };
 		A61CEA9020D0F76D00D0813B /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CEA8D20D0F76D00D0813B /* YYFPSLabel.m */; };
 		A61CEA9120D0F76D00D0813B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CEA8F20D0F76D00D0813B /* YYWeakProxy.m */; };
+		A61CEA9620D3938400D0813B /* SorinTbabarBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CEA9520D3938400D0813B /* SorinTbabarBaseViewController.m */; };
+		A61CEA9920D393B700D0813B /* SorinNavigationBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CEA9820D393B700D0813B /* SorinNavigationBaseViewController.m */; };
+		A61CEA9C20D393D300D0813B /* SorinNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CEA9B20D393D300D0813B /* SorinNavigationBar.m */; };
+		A61CEA9F20D3941D00D0813B /* SorinBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CEA9E20D3941D00D0813B /* SorinBaseViewController.m */; };
 		A62F520B20CA1EBD00EE1338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F520A20CA1EBD00EE1338 /* AppDelegate.m */; };
 		A62F520E20CA1EBD00EE1338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F520D20CA1EBD00EE1338 /* ViewController.m */; };
 		A62F521120CA1EBD00EE1338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62F520F20CA1EBD00EE1338 /* Main.storyboard */; };
@@ -46,6 +50,14 @@
 		A61CEA8E20D0F76D00D0813B /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		A61CEA8F20D0F76D00D0813B /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		A61CEA9220D0F79600D0813B /* Sorin.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sorin.pch; sourceTree = "<group>"; };
+		A61CEA9420D3938400D0813B /* SorinTbabarBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SorinTbabarBaseViewController.h; sourceTree = "<group>"; };
+		A61CEA9520D3938400D0813B /* SorinTbabarBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SorinTbabarBaseViewController.m; sourceTree = "<group>"; };
+		A61CEA9720D393B700D0813B /* SorinNavigationBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SorinNavigationBaseViewController.h; sourceTree = "<group>"; };
+		A61CEA9820D393B700D0813B /* SorinNavigationBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SorinNavigationBaseViewController.m; sourceTree = "<group>"; };
+		A61CEA9A20D393D300D0813B /* SorinNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SorinNavigationBar.h; sourceTree = "<group>"; };
+		A61CEA9B20D393D300D0813B /* SorinNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SorinNavigationBar.m; sourceTree = "<group>"; };
+		A61CEA9D20D3941D00D0813B /* SorinBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SorinBaseViewController.h; sourceTree = "<group>"; };
+		A61CEA9E20D3941D00D0813B /* SorinBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SorinBaseViewController.m; sourceTree = "<group>"; };
 		A62F520620CA1EBD00EE1338 /* Obj-C-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obj-C-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62F520920CA1EBD00EE1338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A62F520A20CA1EBD00EE1338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +133,14 @@
 		A61CEA9320D0FEAA00D0813B /* BaseControl */ = {
 			isa = PBXGroup;
 			children = (
+				A61CEA9420D3938400D0813B /* SorinTbabarBaseViewController.h */,
+				A61CEA9520D3938400D0813B /* SorinTbabarBaseViewController.m */,
+				A61CEA9720D393B700D0813B /* SorinNavigationBaseViewController.h */,
+				A61CEA9820D393B700D0813B /* SorinNavigationBaseViewController.m */,
+				A61CEA9A20D393D300D0813B /* SorinNavigationBar.h */,
+				A61CEA9B20D393D300D0813B /* SorinNavigationBar.m */,
+				A61CEA9D20D3941D00D0813B /* SorinBaseViewController.h */,
+				A61CEA9E20D3941D00D0813B /* SorinBaseViewController.m */,
 			);
 			path = BaseControl;
 			sourceTree = "<group>";
@@ -348,10 +368,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A62F520E20CA1EBD00EE1338 /* ViewController.m in Sources */,
+				A61CEA9620D3938400D0813B /* SorinTbabarBaseViewController.m in Sources */,
 				A62F521920CA1EBD00EE1338 /* main.m in Sources */,
+				A61CEA9F20D3941D00D0813B /* SorinBaseViewController.m in Sources */,
 				A61CEA9020D0F76D00D0813B /* YYFPSLabel.m in Sources */,
 				A62F520B20CA1EBD00EE1338 /* AppDelegate.m in Sources */,
 				A61CEA9120D0F76D00D0813B /* YYWeakProxy.m in Sources */,
+				A61CEA9920D393B700D0813B /* SorinNavigationBaseViewController.m in Sources */,
+				A61CEA9C20D393D300D0813B /* SorinNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
