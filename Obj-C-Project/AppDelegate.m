@@ -19,9 +19,9 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(0, 100, 0, 0)]];
-    self.window.rootViewController = [UIViewController new];
+    self.window.rootViewController = [[MainTabbarViewController alloc] init];
     [self.window makeKeyAndVisible];
+    [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(0, 100, 0, 0)]];
     return YES;
 }
 

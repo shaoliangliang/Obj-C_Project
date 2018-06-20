@@ -22,6 +22,10 @@
 		A62F521920CA1EBD00EE1338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F521820CA1EBD00EE1338 /* main.m */; };
 		A62F522320CA1EBD00EE1338 /* Obj_C_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F522220CA1EBD00EE1338 /* Obj_C_ProjectTests.m */; };
 		A62F522E20CA1EBD00EE1338 /* Obj_C_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F522D20CA1EBD00EE1338 /* Obj_C_ProjectUITests.m */; };
+		A6DF278B20DA310F00D57B07 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF278A20DA310F00D57B07 /* NewsViewController.m */; };
+		A6DF278E20DA311800D57B07 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF278D20DA311800D57B07 /* MainViewController.m */; };
+		A6DF279120DA315B00D57B07 /* MainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF279020DA315B00D57B07 /* MainTabbarViewController.m */; };
+		A6DF279420DA322000D57B07 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF279320DA322000D57B07 /* MusicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,14 @@
 		A62F522920CA1EBD00EE1338 /* Obj-C-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obj-C-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62F522D20CA1EBD00EE1338 /* Obj_C_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Obj_C_ProjectUITests.m; sourceTree = "<group>"; };
 		A62F522F20CA1EBD00EE1338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DF278920DA310F00D57B07 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		A6DF278A20DA310F00D57B07 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		A6DF278C20DA311800D57B07 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A6DF278D20DA311800D57B07 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A6DF278F20DA315B00D57B07 /* MainTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabbarViewController.h; sourceTree = "<group>"; };
+		A6DF279020DA315B00D57B07 /* MainTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabbarViewController.m; sourceTree = "<group>"; };
+		A6DF279220DA322000D57B07 /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		A6DF279320DA322000D57B07 /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +182,9 @@
 		A62F520820CA1EBD00EE1338 /* Obj-C-Project */ = {
 			isa = PBXGroup;
 			children = (
+				A6DF278220DA30A300D57B07 /* Music */,
+				A6DF277E20DA30A300D57B07 /* News */,
+				A6DF277A20DA2FA400D57B07 /* Main */,
 				A61CEA9320D0FEAA00D0813B /* BaseControl */,
 				A61CEA8A20D0F6F000D0813B /* Helpers */,
 				A62F520920CA1EBD00EE1338 /* AppDelegate.h */,
@@ -202,6 +217,107 @@
 				A62F522F20CA1EBD00EE1338 /* Info.plist */,
 			);
 			path = "Obj-C-ProjectUITests";
+			sourceTree = "<group>";
+		};
+		A6DF277A20DA2FA400D57B07 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF277B20DA2FA400D57B07 /* Model */,
+				A6DF277C20DA2FA400D57B07 /* View */,
+				A6DF277D20DA2FA400D57B07 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A6DF277B20DA2FA400D57B07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6DF277C20DA2FA400D57B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6DF277D20DA2FA400D57B07 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF278C20DA311800D57B07 /* MainViewController.h */,
+				A6DF278D20DA311800D57B07 /* MainViewController.m */,
+				A6DF278F20DA315B00D57B07 /* MainTabbarViewController.h */,
+				A6DF279020DA315B00D57B07 /* MainTabbarViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A6DF277E20DA30A300D57B07 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF277F20DA30A300D57B07 /* Model */,
+				A6DF278020DA30A300D57B07 /* View */,
+				A6DF278120DA30A300D57B07 /* ViewController */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		A6DF277F20DA30A300D57B07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6DF278020DA30A300D57B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6DF278120DA30A300D57B07 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF278920DA310F00D57B07 /* NewsViewController.h */,
+				A6DF278A20DA310F00D57B07 /* NewsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A6DF278220DA30A300D57B07 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF278320DA30A300D57B07 /* Model */,
+				A6DF278420DA30A300D57B07 /* View */,
+				A6DF278520DA30A300D57B07 /* ViewController */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		A6DF278320DA30A300D57B07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6DF278420DA30A300D57B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6DF278520DA30A300D57B07 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF279220DA322000D57B07 /* MusicViewController.h */,
+				A6DF279320DA322000D57B07 /* MusicViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		BA1F1C646B1F38577E9F6E09 /* Frameworks */ = {
@@ -371,7 +487,11 @@
 				A61CEA9620D3938400D0813B /* SorinTbabarBaseViewController.m in Sources */,
 				A62F521920CA1EBD00EE1338 /* main.m in Sources */,
 				A61CEA9F20D3941D00D0813B /* SorinBaseViewController.m in Sources */,
+				A6DF278B20DA310F00D57B07 /* NewsViewController.m in Sources */,
 				A61CEA9020D0F76D00D0813B /* YYFPSLabel.m in Sources */,
+				A6DF278E20DA311800D57B07 /* MainViewController.m in Sources */,
+				A6DF279120DA315B00D57B07 /* MainTabbarViewController.m in Sources */,
+				A6DF279420DA322000D57B07 /* MusicViewController.m in Sources */,
 				A62F520B20CA1EBD00EE1338 /* AppDelegate.m in Sources */,
 				A61CEA9120D0F76D00D0813B /* YYWeakProxy.m in Sources */,
 				A61CEA9920D393B700D0813B /* SorinNavigationBaseViewController.m in Sources */,

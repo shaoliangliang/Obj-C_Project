@@ -17,9 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
 }
 - (void)viewDidLayoutSubviews{
-    [self viewDidLayoutSubviews];
+    [super viewDidLayoutSubviews];
     
     [self.view bringSubviewToFront:self.Navigationbar];
 }

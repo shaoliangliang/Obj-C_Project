@@ -53,7 +53,7 @@
 }
 - (void)setTitleView:(UIView *)titleView{
     [_titleView removeFromSuperview];
-    [self addSubview:_titleView];
+    [self addSubview:titleView];
     _titleView = titleView;
     __block BOOL existGesture = NO;
     [titleView.gestureRecognizers enumerateObjectsUsingBlock:^(__kindof UIGestureRecognizer * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
