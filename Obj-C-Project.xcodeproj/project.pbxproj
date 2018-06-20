@@ -26,6 +26,47 @@
 		A6DF278E20DA311800D57B07 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF278D20DA311800D57B07 /* MainViewController.m */; };
 		A6DF279120DA315B00D57B07 /* MainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF279020DA315B00D57B07 /* MainTabbarViewController.m */; };
 		A6DF279420DA322000D57B07 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF279320DA322000D57B07 /* MusicViewController.m */; };
+		A6DF27A120DA6B4300D57B07 /* 最佳损友.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279720DA6B4200D57B07 /* 最佳损友.mp3 */; };
+		A6DF27A220DA6B4300D57B07 /* 传奇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279820DA6B4300D57B07 /* 传奇.mp3 */; };
+		A6DF27A320DA6B4300D57B07 /* 简单爱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279920DA6B4300D57B07 /* 简单爱.mp3 */; };
+		A6DF27A420DA6B4300D57B07 /* 一千年以后.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279A20DA6B4300D57B07 /* 一千年以后.mp3 */; };
+		A6DF27A520DA6B4300D57B07 /* 月半小夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279B20DA6B4300D57B07 /* 月半小夜曲.mp3 */; };
+		A6DF27A620DA6B4300D57B07 /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279C20DA6B4300D57B07 /* 小苹果.mp3 */; };
+		A6DF27A720DA6B4300D57B07 /* 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279D20DA6B4300D57B07 /* 泡沫.mp3 */; };
+		A6DF27A820DA6B4300D57B07 /* I Want It That Way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279E20DA6B4300D57B07 /* I Want It That Way.mp3 */; };
+		A6DF27A920DA6B4300D57B07 /* 瓦解.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF279F20DA6B4300D57B07 /* 瓦解.mp3 */; };
+		A6DF27AA20DA6B4300D57B07 /* 心碎了无痕.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27A020DA6B4300D57B07 /* 心碎了无痕.mp3 */; };
+		A6DF27B520DA6B7900D57B07 /* 简单爱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27AB20DA6B7900D57B07 /* 简单爱.lrc */; };
+		A6DF27B620DA6B7900D57B07 /* 心碎了无痕.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27AC20DA6B7900D57B07 /* 心碎了无痕.lrc */; };
+		A6DF27B720DA6B7900D57B07 /* 瓦解.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27AD20DA6B7900D57B07 /* 瓦解.lrc */; };
+		A6DF27B820DA6B7900D57B07 /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27AE20DA6B7900D57B07 /* 泡沫.lrc */; };
+		A6DF27B920DA6B7900D57B07 /* 一千年以后.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27AF20DA6B7900D57B07 /* 一千年以后.lrc */; };
+		A6DF27BA20DA6B7900D57B07 /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27B020DA6B7900D57B07 /* 月半小夜曲.lrc */; };
+		A6DF27BB20DA6B7900D57B07 /* I Want It That Way.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27B120DA6B7900D57B07 /* I Want It That Way.lrc */; };
+		A6DF27BC20DA6B7900D57B07 /* 小苹果.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27B220DA6B7900D57B07 /* 小苹果.lrc */; };
+		A6DF27BD20DA6B7900D57B07 /* 最佳损友.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27B320DA6B7900D57B07 /* 最佳损友.lrc */; };
+		A6DF27BE20DA6B7900D57B07 /* 传奇.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27B420DA6B7900D57B07 /* 传奇.lrc */; };
+		A6DF27D320DA6BD200D57B07 /* eason_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27BF20DA6BD000D57B07 /* eason_icon@2x.jpg */; };
+		A6DF27D420DA6BD200D57B07 /* dzq_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C020DA6BD000D57B07 /* dzq_icon@2x.jpg */; };
+		A6DF27D520DA6BD200D57B07 /* jj_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C120DA6BD000D57B07 /* jj_icon@2x.png */; };
+		A6DF27D620DA6BD200D57B07 /* zxy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C220DA6BD000D57B07 /* zxy@2x.jpg */; };
+		A6DF27D720DA6BD200D57B07 /* jay@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C320DA6BD000D57B07 /* jay@2x.jpg */; };
+		A6DF27D820DA6BD200D57B07 /* kzxd@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C420DA6BD000D57B07 /* kzxd@2x.jpg */; };
+		A6DF27D920DA6BD200D57B07 /* kzxd_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C520DA6BD000D57B07 /* kzxd_icon@2x.jpg */; };
+		A6DF27DA20DA6BD200D57B07 /* dzq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C620DA6BD000D57B07 /* dzq@2x.jpg */; };
+		A6DF27DB20DA6BD200D57B07 /* eason@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C720DA6BD000D57B07 /* eason@2x.jpg */; };
+		A6DF27DC20DA6BD200D57B07 /* jj@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C820DA6BD000D57B07 /* jj@2x.jpg */; };
+		A6DF27DD20DA6BD200D57B07 /* nanquan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27C920DA6BD100D57B07 /* nanquan@2x.jpg */; };
+		A6DF27DE20DA6BD200D57B07 /* wf_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27CA20DA6BD100D57B07 /* wf_icon@2x.jpg */; };
+		A6DF27DF20DA6BD200D57B07 /* wf@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27CB20DA6BD100D57B07 /* wf@2x.jpg */; };
+		A6DF27E020DA6BD200D57B07 /* bb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27CC20DA6BD100D57B07 /* bb@2x.jpg */; };
+		A6DF27E120DA6BD200D57B07 /* zxy_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27CD20DA6BD100D57B07 /* zxy_icon@2x.jpg */; };
+		A6DF27E220DA6BD200D57B07 /* nanquan_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27CE20DA6BD100D57B07 /* nanquan_icon@2x.jpg */; };
+		A6DF27E320DA6BD200D57B07 /* bb_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27CF20DA6BD100D57B07 /* bb_icon@2x.jpg */; };
+		A6DF27E420DA6BD200D57B07 /* lkq_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27D020DA6BD100D57B07 /* lkq_icon@2x.jpg */; };
+		A6DF27E520DA6BD200D57B07 /* lkq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27D120DA6BD200D57B07 /* lkq@2x.jpg */; };
+		A6DF27E620DA6BD200D57B07 /* jay_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27D220DA6BD200D57B07 /* jay_icon@2x.png */; };
+		A6DF27E820DA6BFC00D57B07 /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27E720DA6BFC00D57B07 /* Musics.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +127,47 @@
 		A6DF279020DA315B00D57B07 /* MainTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabbarViewController.m; sourceTree = "<group>"; };
 		A6DF279220DA322000D57B07 /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
 		A6DF279320DA322000D57B07 /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		A6DF279720DA6B4200D57B07 /* 最佳损友.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "最佳损友.mp3"; sourceTree = "<group>"; };
+		A6DF279820DA6B4300D57B07 /* 传奇.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "传奇.mp3"; sourceTree = "<group>"; };
+		A6DF279920DA6B4300D57B07 /* 简单爱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "简单爱.mp3"; sourceTree = "<group>"; };
+		A6DF279A20DA6B4300D57B07 /* 一千年以后.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一千年以后.mp3"; sourceTree = "<group>"; };
+		A6DF279B20DA6B4300D57B07 /* 月半小夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "月半小夜曲.mp3"; sourceTree = "<group>"; };
+		A6DF279C20DA6B4300D57B07 /* 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小苹果.mp3"; sourceTree = "<group>"; };
+		A6DF279D20DA6B4300D57B07 /* 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "泡沫.mp3"; sourceTree = "<group>"; };
+		A6DF279E20DA6B4300D57B07 /* I Want It That Way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Want It That Way.mp3"; sourceTree = "<group>"; };
+		A6DF279F20DA6B4300D57B07 /* 瓦解.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "瓦解.mp3"; sourceTree = "<group>"; };
+		A6DF27A020DA6B4300D57B07 /* 心碎了无痕.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "心碎了无痕.mp3"; sourceTree = "<group>"; };
+		A6DF27AB20DA6B7900D57B07 /* 简单爱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "简单爱.lrc"; sourceTree = "<group>"; };
+		A6DF27AC20DA6B7900D57B07 /* 心碎了无痕.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "心碎了无痕.lrc"; sourceTree = "<group>"; };
+		A6DF27AD20DA6B7900D57B07 /* 瓦解.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "瓦解.lrc"; sourceTree = "<group>"; };
+		A6DF27AE20DA6B7900D57B07 /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
+		A6DF27AF20DA6B7900D57B07 /* 一千年以后.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "一千年以后.lrc"; sourceTree = "<group>"; };
+		A6DF27B020DA6B7900D57B07 /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		A6DF27B120DA6B7900D57B07 /* I Want It That Way.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "I Want It That Way.lrc"; sourceTree = "<group>"; };
+		A6DF27B220DA6B7900D57B07 /* 小苹果.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "小苹果.lrc"; sourceTree = "<group>"; };
+		A6DF27B320DA6B7900D57B07 /* 最佳损友.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "最佳损友.lrc"; sourceTree = "<group>"; };
+		A6DF27B420DA6B7900D57B07 /* 传奇.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "传奇.lrc"; sourceTree = "<group>"; };
+		A6DF27BF20DA6BD000D57B07 /* eason_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eason_icon@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C020DA6BD000D57B07 /* dzq_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq_icon@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C120DA6BD000D57B07 /* jj_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jj_icon@2x.png"; sourceTree = "<group>"; };
+		A6DF27C220DA6BD000D57B07 /* zxy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C320DA6BD000D57B07 /* jay@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jay@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C420DA6BD000D57B07 /* kzxd@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kzxd@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C520DA6BD000D57B07 /* kzxd_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kzxd_icon@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C620DA6BD000D57B07 /* dzq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C720DA6BD000D57B07 /* eason@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eason@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C820DA6BD000D57B07 /* jj@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jj@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27C920DA6BD100D57B07 /* nanquan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanquan@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27CA20DA6BD100D57B07 /* wf_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf_icon@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27CB20DA6BD100D57B07 /* wf@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27CC20DA6BD100D57B07 /* bb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27CD20DA6BD100D57B07 /* zxy_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy_icon@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27CE20DA6BD100D57B07 /* nanquan_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanquan_icon@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27CF20DA6BD100D57B07 /* bb_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb_icon@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27D020DA6BD100D57B07 /* lkq_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lkq_icon@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27D120DA6BD200D57B07 /* lkq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lkq@2x.jpg"; sourceTree = "<group>"; };
+		A6DF27D220DA6BD200D57B07 /* jay_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jay_icon@2x.png"; sourceTree = "<group>"; };
+		A6DF27E720DA6BFC00D57B07 /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +372,8 @@
 		A6DF278220DA30A300D57B07 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				A6DF279520DA6B0600D57B07 /* lrc */,
+				A6DF279620DA6B0600D57B07 /* MP3 */,
 				A6DF278320DA30A300D57B07 /* Model */,
 				A6DF278420DA30A300D57B07 /* View */,
 				A6DF278520DA30A300D57B07 /* ViewController */,
@@ -300,6 +384,7 @@
 		A6DF278320DA30A300D57B07 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A6DF27E720DA6BFC00D57B07 /* Musics.plist */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +403,60 @@
 				A6DF279320DA322000D57B07 /* MusicViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A6DF279520DA6B0600D57B07 /* lrc */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF27CF20DA6BD100D57B07 /* bb_icon@2x.jpg */,
+				A6DF27CC20DA6BD100D57B07 /* bb@2x.jpg */,
+				A6DF27C020DA6BD000D57B07 /* dzq_icon@2x.jpg */,
+				A6DF27C620DA6BD000D57B07 /* dzq@2x.jpg */,
+				A6DF27BF20DA6BD000D57B07 /* eason_icon@2x.jpg */,
+				A6DF27C720DA6BD000D57B07 /* eason@2x.jpg */,
+				A6DF27D220DA6BD200D57B07 /* jay_icon@2x.png */,
+				A6DF27C320DA6BD000D57B07 /* jay@2x.jpg */,
+				A6DF27C120DA6BD000D57B07 /* jj_icon@2x.png */,
+				A6DF27C820DA6BD000D57B07 /* jj@2x.jpg */,
+				A6DF27C520DA6BD000D57B07 /* kzxd_icon@2x.jpg */,
+				A6DF27C420DA6BD000D57B07 /* kzxd@2x.jpg */,
+				A6DF27D020DA6BD100D57B07 /* lkq_icon@2x.jpg */,
+				A6DF27D120DA6BD200D57B07 /* lkq@2x.jpg */,
+				A6DF27CE20DA6BD100D57B07 /* nanquan_icon@2x.jpg */,
+				A6DF27C920DA6BD100D57B07 /* nanquan@2x.jpg */,
+				A6DF27CA20DA6BD100D57B07 /* wf_icon@2x.jpg */,
+				A6DF27CB20DA6BD100D57B07 /* wf@2x.jpg */,
+				A6DF27CD20DA6BD100D57B07 /* zxy_icon@2x.jpg */,
+				A6DF27C220DA6BD000D57B07 /* zxy@2x.jpg */,
+				A6DF27B420DA6B7900D57B07 /* 传奇.lrc */,
+				A6DF27AB20DA6B7900D57B07 /* 简单爱.lrc */,
+				A6DF27AE20DA6B7900D57B07 /* 泡沫.lrc */,
+				A6DF27AD20DA6B7900D57B07 /* 瓦解.lrc */,
+				A6DF27B220DA6B7900D57B07 /* 小苹果.lrc */,
+				A6DF27AC20DA6B7900D57B07 /* 心碎了无痕.lrc */,
+				A6DF27AF20DA6B7900D57B07 /* 一千年以后.lrc */,
+				A6DF27B020DA6B7900D57B07 /* 月半小夜曲.lrc */,
+				A6DF27B320DA6B7900D57B07 /* 最佳损友.lrc */,
+				A6DF27B120DA6B7900D57B07 /* I Want It That Way.lrc */,
+			);
+			path = lrc;
+			sourceTree = "<group>";
+		};
+		A6DF279620DA6B0600D57B07 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF279820DA6B4300D57B07 /* 传奇.mp3 */,
+				A6DF279920DA6B4300D57B07 /* 简单爱.mp3 */,
+				A6DF279D20DA6B4300D57B07 /* 泡沫.mp3 */,
+				A6DF279F20DA6B4300D57B07 /* 瓦解.mp3 */,
+				A6DF279C20DA6B4300D57B07 /* 小苹果.mp3 */,
+				A6DF27A020DA6B4300D57B07 /* 心碎了无痕.mp3 */,
+				A6DF279A20DA6B4300D57B07 /* 一千年以后.mp3 */,
+				A6DF279B20DA6B4300D57B07 /* 月半小夜曲.mp3 */,
+				A6DF279720DA6B4200D57B07 /* 最佳损友.mp3 */,
+				A6DF279E20DA6B4300D57B07 /* I Want It That Way.mp3 */,
+			);
+			path = MP3;
 			sourceTree = "<group>";
 		};
 		BA1F1C646B1F38577E9F6E09 /* Frameworks */ = {
@@ -435,9 +574,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DF27E020DA6BD200D57B07 /* bb@2x.jpg in Resources */,
+				A6DF27D320DA6BD200D57B07 /* eason_icon@2x.jpg in Resources */,
+				A6DF27B820DA6B7900D57B07 /* 泡沫.lrc in Resources */,
+				A6DF27DE20DA6BD200D57B07 /* wf_icon@2x.jpg in Resources */,
+				A6DF27A720DA6B4300D57B07 /* 泡沫.mp3 in Resources */,
+				A6DF27D820DA6BD200D57B07 /* kzxd@2x.jpg in Resources */,
+				A6DF27E820DA6BFC00D57B07 /* Musics.plist in Resources */,
+				A6DF27BD20DA6B7900D57B07 /* 最佳损友.lrc in Resources */,
+				A6DF27E520DA6BD200D57B07 /* lkq@2x.jpg in Resources */,
+				A6DF27A220DA6B4300D57B07 /* 传奇.mp3 in Resources */,
+				A6DF27E620DA6BD200D57B07 /* jay_icon@2x.png in Resources */,
+				A6DF27D620DA6BD200D57B07 /* zxy@2x.jpg in Resources */,
 				A62F521620CA1EBD00EE1338 /* LaunchScreen.storyboard in Resources */,
+				A6DF27D420DA6BD200D57B07 /* dzq_icon@2x.jpg in Resources */,
 				A62F521320CA1EBD00EE1338 /* Assets.xcassets in Resources */,
+				A6DF27DF20DA6BD200D57B07 /* wf@2x.jpg in Resources */,
+				A6DF27A620DA6B4300D57B07 /* 小苹果.mp3 in Resources */,
+				A6DF27A920DA6B4300D57B07 /* 瓦解.mp3 in Resources */,
+				A6DF27AA20DA6B4300D57B07 /* 心碎了无痕.mp3 in Resources */,
+				A6DF27A320DA6B4300D57B07 /* 简单爱.mp3 in Resources */,
+				A6DF27BC20DA6B7900D57B07 /* 小苹果.lrc in Resources */,
+				A6DF27E420DA6BD200D57B07 /* lkq_icon@2x.jpg in Resources */,
+				A6DF27D520DA6BD200D57B07 /* jj_icon@2x.png in Resources */,
+				A6DF27A420DA6B4300D57B07 /* 一千年以后.mp3 in Resources */,
+				A6DF27B920DA6B7900D57B07 /* 一千年以后.lrc in Resources */,
+				A6DF27D920DA6BD200D57B07 /* kzxd_icon@2x.jpg in Resources */,
 				A62F521120CA1EBD00EE1338 /* Main.storyboard in Resources */,
+				A6DF27E220DA6BD200D57B07 /* nanquan_icon@2x.jpg in Resources */,
+				A6DF27B520DA6B7900D57B07 /* 简单爱.lrc in Resources */,
+				A6DF27DC20DA6BD200D57B07 /* jj@2x.jpg in Resources */,
+				A6DF27BA20DA6B7900D57B07 /* 月半小夜曲.lrc in Resources */,
+				A6DF27A520DA6B4300D57B07 /* 月半小夜曲.mp3 in Resources */,
+				A6DF27A120DA6B4300D57B07 /* 最佳损友.mp3 in Resources */,
+				A6DF27DA20DA6BD200D57B07 /* dzq@2x.jpg in Resources */,
+				A6DF27E120DA6BD200D57B07 /* zxy_icon@2x.jpg in Resources */,
+				A6DF27BE20DA6B7900D57B07 /* 传奇.lrc in Resources */,
+				A6DF27B620DA6B7900D57B07 /* 心碎了无痕.lrc in Resources */,
+				A6DF27DB20DA6BD200D57B07 /* eason@2x.jpg in Resources */,
+				A6DF27B720DA6B7900D57B07 /* 瓦解.lrc in Resources */,
+				A6DF27E320DA6BD200D57B07 /* bb_icon@2x.jpg in Resources */,
+				A6DF27A820DA6B4300D57B07 /* I Want It That Way.mp3 in Resources */,
+				A6DF27DD20DA6BD200D57B07 /* nanquan@2x.jpg in Resources */,
+				A6DF27BB20DA6B7900D57B07 /* I Want It That Way.lrc in Resources */,
+				A6DF27D720DA6BD200D57B07 /* jay@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
