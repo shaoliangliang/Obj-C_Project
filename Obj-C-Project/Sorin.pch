@@ -26,4 +26,7 @@
 #else
 #define NSLog(FORMAT, ...) nil
 #endif
+
+#define IOS_11 @available(iOS 11.0, *)
+#define IOS_11_ADJUST(view) if (IOS_11){view.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;}else {self.automaticallyAdjustsScrollViewInsets = NO;}
 #endif /* Sorin_pch */

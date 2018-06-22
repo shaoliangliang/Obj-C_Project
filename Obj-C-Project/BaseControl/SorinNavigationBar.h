@@ -48,4 +48,6 @@
 @property (nonatomic,weak) id<SorinNavigationBarDelegate> barDelegate;
 //导航栏数据代理
 @property (nonatomic,weak) id<SorinNavigationBarDataSource> barDataSource;
+//标题
+@property (nonatomic,weak) NSMutableAttributedString *barTitle;
 @end

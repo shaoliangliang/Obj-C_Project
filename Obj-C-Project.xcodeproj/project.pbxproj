@@ -67,6 +67,12 @@
 		A6DF27E520DA6BD200D57B07 /* lkq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27D120DA6BD200D57B07 /* lkq@2x.jpg */; };
 		A6DF27E620DA6BD200D57B07 /* jay_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27D220DA6BD200D57B07 /* jay_icon@2x.png */; };
 		A6DF27E820DA6BFC00D57B07 /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6DF27E720DA6BFC00D57B07 /* Musics.plist */; };
+		A6DF27EB20DB825200D57B07 /* MusicInfoModels.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF27EA20DB825200D57B07 /* MusicInfoModels.m */; };
+		A6DF27EE20DB826300D57B07 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF27ED20DB826300D57B07 /* MusicModel.m */; };
+		A6DF27F220DB82A400D57B07 /* MusicOpreationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF27F120DB82A400D57B07 /* MusicOpreationTool.m */; };
+		A6DF27F520DC996300D57B07 /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF27F420DC996300D57B07 /* MusicPlayerViewController.m */; };
+		A6DF27F820DCC6B000D57B07 /* LrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF27F720DCC6B000D57B07 /* LrcModel.m */; };
+		A6DF27FB20DCCD5D00D57B07 /* LrcView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF27FA20DCCD5D00D57B07 /* LrcView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +174,18 @@
 		A6DF27D120DA6BD200D57B07 /* lkq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lkq@2x.jpg"; sourceTree = "<group>"; };
 		A6DF27D220DA6BD200D57B07 /* jay_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jay_icon@2x.png"; sourceTree = "<group>"; };
 		A6DF27E720DA6BFC00D57B07 /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		A6DF27E920DB825200D57B07 /* MusicInfoModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicInfoModels.h; sourceTree = "<group>"; };
+		A6DF27EA20DB825200D57B07 /* MusicInfoModels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicInfoModels.m; sourceTree = "<group>"; };
+		A6DF27EC20DB826300D57B07 /* MusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		A6DF27ED20DB826300D57B07 /* MusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		A6DF27F020DB82A400D57B07 /* MusicOpreationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicOpreationTool.h; sourceTree = "<group>"; };
+		A6DF27F120DB82A400D57B07 /* MusicOpreationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicOpreationTool.m; sourceTree = "<group>"; };
+		A6DF27F320DC996300D57B07 /* MusicPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		A6DF27F420DC996300D57B07 /* MusicPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		A6DF27F620DCC6B000D57B07 /* LrcModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcModel.h; sourceTree = "<group>"; };
+		A6DF27F720DCC6B000D57B07 /* LrcModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcModel.m; sourceTree = "<group>"; };
+		A6DF27F920DCCD5D00D57B07 /* LrcView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LrcView.h; sourceTree = "<group>"; };
+		A6DF27FA20DCCD5D00D57B07 /* LrcView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrcView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,6 +390,7 @@
 		A6DF278220DA30A300D57B07 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				A6DF27EF20DB828400D57B07 /* MusicTool */,
 				A6DF279520DA6B0600D57B07 /* lrc */,
 				A6DF279620DA6B0600D57B07 /* MP3 */,
 				A6DF278320DA30A300D57B07 /* Model */,
@@ -385,6 +404,12 @@
 			isa = PBXGroup;
 			children = (
 				A6DF27E720DA6BFC00D57B07 /* Musics.plist */,
+				A6DF27E920DB825200D57B07 /* MusicInfoModels.h */,
+				A6DF27EA20DB825200D57B07 /* MusicInfoModels.m */,
+				A6DF27EC20DB826300D57B07 /* MusicModel.h */,
+				A6DF27ED20DB826300D57B07 /* MusicModel.m */,
+				A6DF27F620DCC6B000D57B07 /* LrcModel.h */,
+				A6DF27F720DCC6B000D57B07 /* LrcModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -392,6 +417,8 @@
 		A6DF278420DA30A300D57B07 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A6DF27F920DCCD5D00D57B07 /* LrcView.h */,
+				A6DF27FA20DCCD5D00D57B07 /* LrcView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -401,6 +428,8 @@
 			children = (
 				A6DF279220DA322000D57B07 /* MusicViewController.h */,
 				A6DF279320DA322000D57B07 /* MusicViewController.m */,
+				A6DF27F320DC996300D57B07 /* MusicPlayerViewController.h */,
+				A6DF27F420DC996300D57B07 /* MusicPlayerViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -457,6 +486,15 @@
 				A6DF279E20DA6B4300D57B07 /* I Want It That Way.mp3 */,
 			);
 			path = MP3;
+			sourceTree = "<group>";
+		};
+		A6DF27EF20DB828400D57B07 /* MusicTool */ = {
+			isa = PBXGroup;
+			children = (
+				A6DF27F020DB82A400D57B07 /* MusicOpreationTool.h */,
+				A6DF27F120DB82A400D57B07 /* MusicOpreationTool.m */,
+			);
+			path = MusicTool;
 			sourceTree = "<group>";
 		};
 		BA1F1C646B1F38577E9F6E09 /* Frameworks */ = {
@@ -664,18 +702,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				A62F520E20CA1EBD00EE1338 /* ViewController.m in Sources */,
+				A6DF27F820DCC6B000D57B07 /* LrcModel.m in Sources */,
 				A61CEA9620D3938400D0813B /* SorinTbabarBaseViewController.m in Sources */,
 				A62F521920CA1EBD00EE1338 /* main.m in Sources */,
 				A61CEA9F20D3941D00D0813B /* SorinBaseViewController.m in Sources */,
 				A6DF278B20DA310F00D57B07 /* NewsViewController.m in Sources */,
+				A6DF27EB20DB825200D57B07 /* MusicInfoModels.m in Sources */,
 				A61CEA9020D0F76D00D0813B /* YYFPSLabel.m in Sources */,
+				A6DF27EE20DB826300D57B07 /* MusicModel.m in Sources */,
 				A6DF278E20DA311800D57B07 /* MainViewController.m in Sources */,
 				A6DF279120DA315B00D57B07 /* MainTabbarViewController.m in Sources */,
 				A6DF279420DA322000D57B07 /* MusicViewController.m in Sources */,
+				A6DF27F520DC996300D57B07 /* MusicPlayerViewController.m in Sources */,
 				A62F520B20CA1EBD00EE1338 /* AppDelegate.m in Sources */,
+				A6DF27FB20DCCD5D00D57B07 /* LrcView.m in Sources */,
 				A61CEA9120D0F76D00D0813B /* YYWeakProxy.m in Sources */,
 				A61CEA9920D393B700D0813B /* SorinNavigationBaseViewController.m in Sources */,
 				A61CEA9C20D393D300D0813B /* SorinNavigationBar.m in Sources */,
+				A6DF27F220DB82A400D57B07 /* MusicOpreationTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

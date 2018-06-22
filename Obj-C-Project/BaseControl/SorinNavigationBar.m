@@ -13,7 +13,6 @@
 @property (nonatomic,weak) UIView *titleView;
 @property (nonatomic,weak) UIImage *backgroundImage;
 @property (nonatomic,weak) UIView *bottomLine;
-@property (nonatomic,weak) NSMutableAttributedString *barTitle;
 
 
 @end
